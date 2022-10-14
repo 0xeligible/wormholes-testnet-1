@@ -81,6 +81,7 @@ wget -O monitor.sh https://raw.githubusercontent.com/mesahin001/wormholes/master
 ```
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"net_peerCount","id":1}' http://127.0.0.1:8545
 ```
+`*** ganti youradrees dengan address yang dipake dinode ***`
 # check block
 ```
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}' http://127.0.0.1:8545
