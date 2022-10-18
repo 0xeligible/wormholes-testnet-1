@@ -60,6 +60,7 @@ bash ./wormholes_install.sh
 ```
 tail -f /wm/.wormholes/wormholes.log | grep -i 'your adress'
 ```
+` *** ganti your address dengan address testnet ***`
 # stop node
 ```
 docker stop wormholes
