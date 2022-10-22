@@ -98,3 +98,11 @@ docker exec -it wormholes /usr/bin/cat /wm/.wormholes/wormholes/nodekey
 ```
 docker stop wormholes
 ```
+# uninstall docker
+```
+sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli
+```
+```
+sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce
+```
+
