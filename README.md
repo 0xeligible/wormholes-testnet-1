@@ -32,16 +32,9 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
-# clone repository
+# run node
 ```
-git clone https://github.com/wormholes-org/wormholes
-```
-# run docker
-```
-cd wormholes
-```
-```
-bash ./wormholes_install.sh
+wget -c https://docker.wormholes.com/wormholes_install.sh && sudo bash wormholes_install.sh
 ```
 ` ""ketik Y : jika baru pertama kali run node""`
 
